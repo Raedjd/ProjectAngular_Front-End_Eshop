@@ -1,0 +1,36 @@
+
+<div class="containers">
+    <div class="cards">
+        <div class="shoeBackground">
+            <div class="gradients">
+                <div class="gradient second" color="blue">
+                    <img src="../../../assets/{{photo}}" />
+                </div> 
+            </div>
+            <h1 class="nike">ECHRYY</h1>
+            <a href="#" class="share" *ngIf="promoValue!=null">{{promoValue}}%</a>
+        </div>
+        <div class="info">
+            <div class="shoeName">
+                <div>
+                    <h1 class="big">{{name}}</h1>
+                </div>
+            </div>
+            <div class="description">
+                <h3 class="title">Product Info</h3>
+                <p class="text">{{description}}</p>
+            </div>
+            <div class="buy-price">
+                <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to card</a>
+                <div class="price">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h1 class="Price" *ngIf="promoValue!=null">{{price}}</h1>
+                    <h1 class="dashedPrice" *ngIf="promoValue==null">{{price}}</h1>
+                    <h3 *ngIf="promoValue!=null" class="newPrice">
+                        {{ (price*(1-promoValue/100)).toFixed(2) }}
+                        </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

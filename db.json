@@ -1,0 +1,204 @@
+{
+  "promotions": [
+    {
+      "name": "amine",
+      "startingDate": "1997-08-22",
+      "endingDate": "2021-12-13",
+      "value": 70,
+      "id": 1
+    },
+    {
+      "name": "amineeee",
+      "startingDate": "2021-01-01",
+      "value": 30,
+      "endingDate": "2022-02-03",
+      "id": 3
+    },
+    {
+      "name": "test",
+      "startingDate": "2021-01-01",
+      "value": 60,
+      "endingDate": "2021-01-01",
+      "id": 5
+    },
+    {
+      "name": "promo1",
+      "startingDate": "2022-01-01",
+      "value": 20,
+      "endingDate": "2022-01-01",
+      "id": 6
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Food",
+      "ref": "#222",
+      "quantity": 200
+    },
+    {
+      "id": 2,
+      "name": "Tools",
+      "ref": "#228",
+      "quantity": 300
+    },
+    {
+      "id": 3,
+      "name": "Electronics",
+      "ref": "#33",
+      "quantity": 154
+    },
+    {
+      "id": 4,
+      "name": "Health",
+      "ref": "#456",
+      "quantity": 122
+    },
+    {
+      "name": "Shoes",
+      "ref": "#fff",
+      "quantity": 123,
+      "id": 9
+    },
+    {
+      "name": "Sports",
+      "ref": "#222",
+      "quantity": 123,
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "libelle": "Nike Blue",
+      "prixUnitaire": "100",
+      "photo": "blue.png",
+      "category": "Shoes",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cumque ad ",
+      "id": "3617",
+      "nouveauPrix": 60,
+      "idPromo": 6,
+      "promoValue": 20
+    },
+    {
+      "libelle": "Receiveur",
+      "prixUnitaire": "200",
+      "photo": "58f36d6ca4fa116215a923f9.png",
+      "category": "Electronics",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cumque ad ",
+      "id": "1908",
+      "nouveauPrix": null,
+      "idPromo": 1,
+      "promoValue": 70
+    },
+    {
+      "libelle": "Coffe maker",
+      "prixUnitaire": "500",
+      "photo": "58adf596e612507e27bd3c3c.png",
+      "category": "Tools",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cumque ad ",
+      "id": "6277",
+      "nouveauPrix": null,
+      "idPromo": 2,
+      "promoValue": null
+    },
+    {
+      "libelle": "Smart Phone",
+      "prixUnitaire": "85",
+      "photo": "58f36d65a4fa116215a923f8.png",
+      "category": "Electronics",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cumque ad ",
+      "id": "1129",
+      "nouveauPrix": 76.5,
+      "idPromo": 1,
+      "promoValue": 50
+    },
+    {
+      "libelle": "Weights",
+      "prixUnitaire": "145",
+      "photo": "5a5e10bc9fc8c9351ecc499e.png",
+      "category": "Sports",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cumque ad ",
+      "id": "4406",
+      "nouveauPrix": null,
+      "idPromo": 5,
+      "promoValue": 60
+    },
+    {
+      "libelle": "Micro wave",
+      "prixUnitaire": "185",
+      "photo": "5b51effbc051e602a568ce64.png",
+      "category": "Electronics",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cumque ad ",
+      "id": "1305",
+      "nouveauPrix": 166.5,
+      "idPromo": 1,
+      "promoValue": 50
+    },
+    {
+      "libelle": "Cake",
+      "prixUnitaire": "85",
+      "photo": "5c50776fbb7e2a029589d254.png",
+      "category": "Food",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cumque ad ",
+      "id": "7098"
+    },
+    {
+      "libelle": "Cheese",
+      "prixUnitaire": "74",
+      "photo": "580b57fbd9996e24bc43c0c9.png",
+      "category": "Food",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cumque ad ",
+      "id": "8940"
+    }
+  ],
+  "users": [
+    {
+      "firstname": "oussema",
+      "lastname": "selmi",
+      "username": "oussemaselmi",
+      "birthdate": "2021-12-14",
+      "email": "oussema.selmi@esprit.tn",
+      "password": "raed1234",
+      "confpass": "raed1234",
+      "categorieclient": "FIDELE",
+      "isAdmin": false,
+      "id": "6CEaNI_"
+    },
+    {
+      "firstname": "salim",
+      "lastname": "berima",
+      "username": "salimberima",
+      "birthdate": "2021-12-06",
+      "email": "salim.berima@esprit.tn",
+      "password": "raed1234",
+      "confpass": "raed1234",
+      "categorieclient": "ORDINAIRE",
+      "isAdmin": false,
+      "id": "54baoK8"
+    },
+    {
+      "firstname": "raed",
+      "lastname": "jaidi",
+      "username": "raedjaidi",
+      "birthdate": "2021-12-07",
+      "email": "raed.jaidi@esprit.tn",
+      "password": "raed1234",
+      "confpass": "raed1234",
+      "categorieclient": "PREMUIM",
+      "isAdmin": true,
+      "id": "MVKvDGr"
+    },
+    {
+      "categorieclient": "ORDINAIRE",
+      "isAdmin": false,
+      "firstname": "dhia",
+      "lastname": "zoghlemi",
+      "username": "dzovi",
+      "birthdate": "2021-12-08",
+      "email": "dhia.dzovi@esprit.tn",
+      "password": "raed1234",
+      "confpass": "raed1234",
+      "id": "4Dpx8Zm"
+    }
+  ]
+}

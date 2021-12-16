@@ -1,0 +1,30 @@
+.button-update {
+  margin-left: 25px;
+}
+
+button.btn.btn-light {
+  position: absolute;
+  right: 0;
+}
+h3 {
+  text-align: center;
+  color: green;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.withPromotion {
+  position: absolute;
+  font-size: 1em;
+  color: red;
+  font-weight: normal;
+  text-decoration: line-through;
+  left:20%;
+  top:75%;
+  transform: translateX(-50%),translateY(-50%);
+}
+img {
+  height:250px;
+}
+.dixed {
+  height:500px;
+}
