@@ -17,7 +17,7 @@ export class UserService {
 
  
   constructor(private http: HttpClient) {
- 
+  
       
    }  
    consulterUser(username:string):Observable<User> {
