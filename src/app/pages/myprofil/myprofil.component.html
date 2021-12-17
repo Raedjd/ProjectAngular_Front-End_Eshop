@@ -1,7 +1,7 @@
 <div class="wrappers">
     <a routerLink="/">Return Home</a>
     <div class="containers">
-        <form [formGroup]="myForm">
+        <form [formGroup]="myForm"> 
             <h3>My Profile</h3>
             <label>First Name : </label>
             <input class="form-control" name="firstname" placeholder="FIRST NAME" type="text" minlength="3" [(ngModel)]="currentUser.firstname"  formControlName="firstname">    
