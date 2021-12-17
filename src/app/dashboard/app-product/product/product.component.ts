@@ -16,7 +16,7 @@ export class ProductComponent implements OnInit {
   listPromo:promotions[];
   listProduct: Product[] = [];
   promo:promotions;
-
+ 
   constructor(    private promotionService:PromotionsService,private productService: ProductService ) {}
 
   ngOnInit(): void {
