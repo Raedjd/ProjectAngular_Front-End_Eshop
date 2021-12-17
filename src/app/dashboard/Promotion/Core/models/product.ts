@@ -5,4 +5,4 @@ export class product{
     initialPrice: number;
     newPrice: number;
   }
-  
+   
