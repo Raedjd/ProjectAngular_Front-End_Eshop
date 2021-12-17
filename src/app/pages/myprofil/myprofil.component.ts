@@ -11,7 +11,7 @@ import { UserService } from 'src/app/sharedservices/user.service';
 })
 export class MyprofilComponent implements OnInit {
 
-  currentUser = new User();
+  currentUser = new User(); 
   user = new User();
   myForm!: FormGroup;
 
