@@ -19,7 +19,7 @@ export class PromotionComponent implements OnInit {
   product: Product;
   listProduct: Product[] = [];
   constructor(private promotionService:PromotionsService,private productService: ProductService ) { }
-
+ 
   ngOnInit(): void {
     this.promotionService.getAllPromo().subscribe((data:promotions[])=>this.list=data); 
     this.promotions = new promotions();
