@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { User } from 'src/app/models/user';
 import { UserService } from 'src/app/sharedservices/user.service';
 
-@Component({
+@Component({ 
   selector: 'app-signup',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
