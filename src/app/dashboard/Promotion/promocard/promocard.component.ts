@@ -17,3 +17,4 @@ export class PromocardComponent implements OnInit {
   }
 
 }
+ 
