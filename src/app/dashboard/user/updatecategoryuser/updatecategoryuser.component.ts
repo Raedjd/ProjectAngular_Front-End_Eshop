@@ -21,7 +21,7 @@ export class UpdatecategoryuserComponent implements OnInit {
 
     this.myForm = new FormGroup({
       'newusername': new FormControl('',Validators.required),
-    
+     
      
     
     })
