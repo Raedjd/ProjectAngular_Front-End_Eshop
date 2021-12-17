@@ -7,7 +7,7 @@
   height: 80px;
   padding: 0 30px;
   z-index: 1000;
-}
+} 
 .notfixed {
   position: fixed;
   background-color: transparent;
