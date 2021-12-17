@@ -8,3 +8,4 @@ export class Product {
   promoValue:number=null;
   idPromo:number;
 }
+ 
