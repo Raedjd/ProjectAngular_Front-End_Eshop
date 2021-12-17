@@ -10,7 +10,7 @@
                        <div class="errormsg" *ngIf="myForm.controls['firstname'].invalid && myForm.controls['firstname'].touched">
                         <small *ngIf="myForm.controls['firstname'].hasError('required')">First name required</small>
                         <small *ngIf="myForm.controls['firstname'].hasError('minlength')">minlength is equal to 3</small>
-                        </div> 
+                         </div> 
 						<input class="form-control" name="Lastname" placeholder="LAST NAME" type="text" minlength="3"[(ngModel)]="newUserSubscribe.lastname"  formControlName="lastname">   
                        <div class="errormsg" *ngIf="myForm.controls['lastname'].invalid && myForm.controls['lastname'].touched">
                         <small *ngIf="myForm.controls['lastname'].hasError('required')">Last name required</small>
