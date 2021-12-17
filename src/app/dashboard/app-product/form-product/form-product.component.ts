@@ -21,7 +21,7 @@ export class FormProductComponent implements OnInit {
   @Output() addEvent = new EventEmitter<Product>();
   @Output() changeEvent = new EventEmitter<Product>();
   constructor(private builder: FormBuilder,private api:ApiService) {}
-
+ 
   ngOnInit(): void {
     this.api.getAllCategories().subscribe((data:Category[])=>{
       this.categorylist = data;
