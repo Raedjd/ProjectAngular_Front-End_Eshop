@@ -11,7 +11,7 @@ export class PromotionsService {
     headers: new HttpHeaders({
       'content-Type' : 'application/json'
     })
-  }
+  } 
 
   constructor(private http : HttpClient) { }
   getAllPromo() {
