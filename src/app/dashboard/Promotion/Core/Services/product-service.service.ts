@@ -21,3 +21,4 @@ export class ProductServiceService {
     return this.http.put<product>(`${this.urlProduct}/${id}`, JSON.stringify(pro),this.httpOptions);
   }  
 }
+ 
