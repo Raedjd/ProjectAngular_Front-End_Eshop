@@ -13,7 +13,7 @@ export class NavbarComponent implements OnInit {
   navitem:boolean=true;
   adminNotif: boolean =false;
   constructor(private router :Router) { }
-
+ 
   ngOnInit(): void {
     const ch = JSON.parse(localStorage.getItem('isloggedIn') || '{}');
     const admin = JSON.parse(localStorage.getItem('user') || '{}');
