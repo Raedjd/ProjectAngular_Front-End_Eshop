@@ -11,4 +11,4 @@ export class User{
     confpass!:string;
     categorieclient!:string;
     isAdmin!:boolean;
- }    
+ }     
