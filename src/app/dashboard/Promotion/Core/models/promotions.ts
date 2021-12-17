@@ -5,4 +5,4 @@ export class promotions{
     endingDate: any;
     value: number;
   }
-  
+   
