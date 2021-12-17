@@ -22,3 +22,4 @@ import { UpdatecategoryuserComponent } from './updatecategoryuser/updatecategory
   ]
 })
 export class UserModule { }
+ 
