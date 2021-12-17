@@ -12,7 +12,7 @@
                         <div class="errormsg" *ngIf="myForm.controls['username'].invalid && myForm.controls['username'].touched">
                         <div *ngIf="myForm.controls['username'].hasError('required')">username required</div>
                          </div>
-						 <input type="password" name="password" placeholder="PASSWORD" class="form-control"  formControlName="password" [(ngModel)]="user.password">
+			 			 <input type="password" name="password" placeholder="PASSWORD" class="form-control"  formControlName="password" [(ngModel)]="user.password">
 						 <div class="errormsg" *ngIf="myForm.controls['password'].invalid && myForm.controls['password'].touched">
 						 <div *ngIf="myForm.controls['password'].hasError('required')">password required</div>
 						  </div>
