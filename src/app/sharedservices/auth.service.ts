@@ -14,7 +14,7 @@ export class AuthService {
           {"username":"raedjaidi","password":"123raed","roles":["ADMIN"]},
            {"username":"raed","password":"123raed","roles":["USER"]}]; */
 
-
+ 
           //  apiURL:string ='http://localhost:8081/SpringMVC/servlet//login';
           apiURL:string = "http://localhost:3000/users?username="
           
