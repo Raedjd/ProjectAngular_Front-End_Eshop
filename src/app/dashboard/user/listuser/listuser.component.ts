@@ -21,7 +21,7 @@ export class ListuserComponent implements OnInit {
   constructor(private route: ActivatedRoute,private userService: UserService) {
   
   
-
+ 
  }
  
   ngOnInit(): void {
