@@ -23,3 +23,4 @@ import { PromoDetailsComponent } from './promo-details/promo-details.component';
   ]
 })
 export class PromotionModule { }
+ 
