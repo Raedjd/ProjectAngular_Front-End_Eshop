@@ -16,7 +16,7 @@ export class MainProductComponent implements OnInit {
   searchText;
   // listPromo:promotions[];
   // promo:promotions;
-
+ 
   constructor(
     private productService: ProductService,
     public dialog: MatDialog,
