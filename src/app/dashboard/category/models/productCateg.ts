@@ -5,4 +5,4 @@ export class ProductCateg {
   category!: string;
   photo!: string;
   description!: string;
-}
+} 
