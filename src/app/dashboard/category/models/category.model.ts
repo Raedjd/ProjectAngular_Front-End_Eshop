@@ -3,4 +3,4 @@ export class CategoryModel {
     name!:string ;
     ref!:string ;
     quantity!:number;
-}
+} 
