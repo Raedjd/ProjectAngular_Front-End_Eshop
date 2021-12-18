@@ -22,7 +22,7 @@ import { CatDetailsComponent } from './components/cat-details/cat-details.compon
     CategoryRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule 
   ],
   exports : [
     CategoryCardContainerComponent,
