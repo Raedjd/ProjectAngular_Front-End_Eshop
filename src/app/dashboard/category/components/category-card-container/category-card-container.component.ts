@@ -21,7 +21,7 @@ export class CategoryCardContainerComponent implements OnInit {
       this.categories = data;
     })
     this.category = new CategoryModel(); 
-  }
+  } 
   deleteCategories(id:number,categ:Category) {
     let i = this.categories.indexOf(categ);
     this.api.deleteCategory(id).subscribe(()=>{
