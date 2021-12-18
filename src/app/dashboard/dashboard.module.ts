@@ -13,7 +13,7 @@ import { CategoryModule } from './category/category.module';
 import { UserModule } from './user/user.module';
 import { AppProductModule } from './app-product/app-product.module';
 import { PromotionModule } from './Promotion/promotion.module';
-
+ 
 
 @NgModule({
   declarations: [
