@@ -14,7 +14,7 @@ export class ApiService {
     headers: new HttpHeaders({
       'content-Type' : 'application/json'
     })
-  }
+  } 
 
   constructor(private http : HttpClient) { }
   createCategory(category:any): Observable<Category> {
